@@ -1,0 +1,12 @@
+Number=600851475143
+b=2
+count=0
+while b!=Number:
+    if(Number%b==0):
+        Number=Number/b
+        b=2
+    else:
+        b=b+1
+    count=count+1
+print(b)
+print(count)
